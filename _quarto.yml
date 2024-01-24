@@ -1,0 +1,55 @@
+project:
+  type: book
+  output-dir: _book
+
+book:
+  title: "R 语言数据清洗"
+  author: "吴诗涛"
+  date: today
+  date-format: iso
+  output-file: "R4DC"
+
+  repo-url: https://github.com/Shitao5/R4DC
+  repo-actions: [edit, issue]
+  search: true
+  downloads: [pdf]
+  comments:
+    giscus:
+      repo: Shitao5/R4DC
+
+  chapters:
+    - index.qmd
+    - preface.qmd
+    - intro.qmd
+
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme:
+      light: cosmo
+      dark: darkly
+    code-link: true
+    toc: true
+    toc-depth: 3
+    crossref:
+      chapters: true
+  pdf:
+    documentclass: book
+    include-in-header: preamble.tex
+    colorlinks: true
+    link-citations: true
+    lof: true
+    lot: true
+    geometry:
+      - tmargin=2.5cm
+      - bmargin=2.5cm
+      - lmargin=3.0cm
+      - rmargin=2.0cm
+    crossref:
+      chapters: true
+
+execute:
+  freeze: auto

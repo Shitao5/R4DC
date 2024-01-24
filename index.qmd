@@ -1,0 +1,11 @@
+# 欢迎 {.unnumbered}
+
+::: {.callout-warning}
+本书刚开始写作，想到哪里写到哪里。
+:::
+
+这是[诗涛](https://shitao5.org/)着手写的第一本书。包含了学习R语言和工作中的遇到的一些数据清洗上的问题。
+
+本书采用 [CC BY-NC-ND 4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/) 许可证。
+
+<!-- ## Acknowledgements {.unnumbered} -->
